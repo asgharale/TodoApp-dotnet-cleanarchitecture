@@ -1,0 +1,41 @@
+*.obj
+*.dll
+
+**/bin/
+**/obj/
+.vs/
+**/.vs/
+Publish/
+**/Publish/
+
+/SiratProject/.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Distribution packages
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+/SiratProject/SiratProject.BL/DTOs/INPUT/Services/ComprehensiveCenter/GetAppoinmetReceipt/GetAppoinmentReceiptValidator.cs
