@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TodoApp.Domain.DTO
+namespace TodoApp.Domain.DTO.OUTPUT
 {
     public class ApiResponse
     {
