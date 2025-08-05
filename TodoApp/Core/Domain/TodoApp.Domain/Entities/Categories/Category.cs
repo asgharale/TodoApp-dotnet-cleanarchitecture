@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TodoApp.Domain.Entities.Items.Item;
+using TodoApp.Domain.Entities.Items;
 
 namespace TodoApp.Domain.Entities.Categories
 {
@@ -14,6 +14,6 @@ namespace TodoApp.Domain.Entities.Categories
         public string Description { get; set; }
         public bool IsActive { get; set; }
 
-        public ICollection<Item> Items { get; set; } = new List<Item()>;
+        public ICollection<Item> Items { get; set; } = new List<Item>();
     }
 }
