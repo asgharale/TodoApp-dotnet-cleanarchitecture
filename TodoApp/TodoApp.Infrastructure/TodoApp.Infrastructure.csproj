@@ -10,4 +10,11 @@
     <ProjectReference Include="..\Core\Domain\TodoApp.Domain\TodoApp.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>

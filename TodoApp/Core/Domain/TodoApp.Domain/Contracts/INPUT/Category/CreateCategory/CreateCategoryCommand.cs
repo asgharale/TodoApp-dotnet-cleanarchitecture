@@ -4,17 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TodoApp.Domain.DTO.INPUT.Category.CreateCategoryCommand
+namespace TodoApp.Domain.Contracts.INPUT.Category.CreateCategory
 {
     public class CreateCategoryCommand
     {
         public string Name { get; set; }
         public string? Description { get; set; }
         public bool IsActive { get; set; }
-
+        
         public CreateCategoryCommand()
         {
-            IsDone = flase;
             IsActive = true;
         }
     }

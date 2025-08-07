@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TodoApp.Domain.DTO.INPUT.Category.CreateCategory
+namespace TodoApp.Domain.Contracts.INPUT.Item.CreateItem
 {
-    public class CreateCategoryCommandValidator
+    public class CreateItemCommandValidator
     {
-
     }
 }

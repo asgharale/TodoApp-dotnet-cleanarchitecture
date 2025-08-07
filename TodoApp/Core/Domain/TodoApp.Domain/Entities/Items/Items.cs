@@ -16,7 +16,7 @@ namespace TodoApp.Domain.Entities.Items
         public DateTime? DueDate { get; set; }
         public bool IsActive { get; set; }
         public long CategoryId { get; set; }
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }

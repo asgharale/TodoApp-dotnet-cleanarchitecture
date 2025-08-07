@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TodoApp.Domain.DTO.OUTPUT
+namespace TodoApp.Domain.Contracts.COMMON
 {
-    public class ApiResponse
+    public class ErrorResponse
     {
-        public bool Success { get; set; }
+        public int StatusCode { get; set; }
         public string Message { get; set; }
-        public object Data { get; set; } = new object();
+        public string Title { get; set; }
+    
     }
 }

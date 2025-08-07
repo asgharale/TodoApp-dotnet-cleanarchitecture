@@ -4,21 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TodoApp.Domain.DTO.INPUT.Item.CreateItem
+namespace TodoApp.Domain.Contracts.OUTPUT.Item
 {
-    public class CreateItemCommand
+    public class GetItemQr
     {
+        public long Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public bool IsDone { get; set; }
-        public DateTime? DueDate { get; set; }
         public string Description { get; set; } = string.Empty;
+        public bool IsDone {  get; set; }
+        public DateTime? Duetime { get; set; }
         public long CategoryId { get; set; }
-
-
-        public CreateItemCommand()
-        {
-            IsDone = false;
-            IsActive = true;
-        }
     }
 }
